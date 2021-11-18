@@ -1,0 +1,57 @@
+
+body {
+    background-color: rgba(102, 102, 102, 0.788);
+    font-family: 'Bebas Neue', cursive;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.content {
+    text-align: center;
+    justify-content: center;
+    min-height: 100vh; 
+}
+
+.content #ciudad,
+.content #pais {
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
+    font-size: 1rem;
+    padding: 1rem;
+    min-width: 300px;
+    text-transform: uppercase;
+}
+
+.btn {
+    margin: 10px;
+    border: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    width: 5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+.btn:active {
+    transform: scale(0.9);
+}
+
+#saludo {
+    justify-content: center;
+    text-align: center;
+}
+
+.texto {
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 60px;
+}
+
+.complemento {
+    padding: 10px;
+    font-size: 30px;
+}
